@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tramites y Negocios SAS</title>
+  <style>
+    :root {
+      --azul-rey: #003399;
+      --blanco: #ffffff;
+      --gris: #f5f5f5;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Poppins", sans-serif;
+      background-image: url(https://wallpapers.com/images/high/enterprise-city-skyscrapers-i3rt78ar5wcpov8z.webp);
+      color: #333;
+      background-position: center;
+      background-size: cover;
+    }
+
+    header {
+      background-color: #003399b5;
+      backdrop-filter: blur(50px);
+      color: var(--blanco);
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1rem;
+      opacity: 0.9;
+    }
+
+    section {
+      padding: 2rem 1.2rem;
+      max-width: 800px;
+      margin: auto;
+      background-color: #ffffff84;
+      backdrop-filter: blur(15px);
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      margin-top: -2rem;
+      position: relative;
+      z-index: 10;
+    }
+
+    section h2 {
+      color: var(--azul-rey);
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+
+    section p {
+      text-align: justify;
+      line-height: 1.6;
+      margin-bottom: 1rem;
+    }
+
+    .servicios {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1rem;
+      margin-top: 1.5rem;
+    }
+
+    .card {
+      background: var(--gris);
+      border-radius: 10px;
+      padding: 1rem;
+      text-align: center;
+      transition: 0.5s;
+    }
+
+    .card:hover {
+      background-color: #6363643c;
+    }
+
+    .card h3 {
+      color: var(--azul-rey);
+      margin-bottom: 0.5rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      background-color: #003399b5;
+      backdrop-filter: blur(50px);
+      color: var(--blanco);
+      margin-top: 2rem;
+    }
+
+    footer p {
+      margin: 0.5rem 0;
+    }
+
+    a.boton {
+      display: inline-block;
+      background-color: var(--azul-rey);
+      color: var(--blanco);
+      padding: 0.8rem 1.5rem;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 1rem;
+      transition: 0.3s;
+    }
+
+    a.boton:hover {
+      background-color: #001f66;
+    }
+
+    @media (min-width: 600px) {
+      .servicios {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Tramites y Negocios SAS</h1>
+    <p>Tu aliado en la formalización de empresas en Colombia</p>
+  </header>
+
+  <section>
+    <h2>¿Quiénes somos?</h2>
+    <p>
+      En <strong>Tramites y Negocios SAS</strong> ayudamos a emprendedores, profesionales y
+      microempresarios a formalizar sus negocios de manera rápida, segura y
+      sencilla. Nos encargamos de todos los trámites legales y administrativos
+      para que te concentres en hacer crecer tu idea.
+    </p>
+
+    <h2>Servicios</h2>
+    <div class="servicios">
+      <div class="card">
+        <h3>Asesoría personalizada.</h3>
+        <p>Orientación sobre el tipo de sociedad que más conviene según el negocio (persona natural, SAS, LTDA, etc.)</p>
+      </div>
+
+      <div class="card">
+        <h3>Capacitación básica</h3>
+        <p>En temas de obligaciones legales, tributarias y administrativas.</p>
+      </div>
+
+      <div class="card">
+        <h3>Gestión completa del trámite</h3>
+        <p> opción para que el emprendedor delegue la realización del proceso (registro en Cámara de Comercio, DIAN, permisos locales), garantizando rapidez, legalidad y confianza. </p>
+      </div>
+
+      <div class="card">
+        <h3>Consultoría transparente</h3>
+        <p>Ofrecemos el servicio de consultoria sobre cualquier tipo de duda que busuqes aclarar</p>
+      </div>
+    </div>
+
+    <div style="text-align:center;">
+      <a href="https://wa.me/573001234567" class="boton" target="_blank">
+        Contáctanos por WhatsApp
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Tramites y Negocios SAS. Todos los derechos reservados.</p>
+    <p>Email: contacto@formamas.co | Tel: +57 300 123 4567</p>
+  </footer>
+</body>
+</html>
